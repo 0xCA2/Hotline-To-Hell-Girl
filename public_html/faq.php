@@ -17,7 +17,17 @@
 							somewhere still has the rights to that season). I <i>could</i> upload it
 							myself- nah, just kidding.
 
-							<strong>Update:</strong> I found it :) Videos are hosted on the site.
+							<strong>Update:</strong> I found it :) Videos are hosted on the site. 
+						</li>
+					</ul>
+				</li>
+
+				<li class="faq_question">Can I download these episodes?</li>
+				<li>
+					<ul>
+						<li class="faq_answer">
+							Not from this site.... Hell Girl episodes can be downloaded from
+				Amazon Instant
 						</li>
 					</ul>
 				</li>
@@ -44,6 +54,15 @@
 					</ul>
 				</li>
 
+				<li class="faq_question">How do you feel about the Hell Girl manga?</li>
+				<li>
+					<ul>
+						<li class="faq_answer">
+							Never got around to reading it.
+						</li>
+					</ul>
+				</li>
+
 				<li class="faq_question">How do you feel about the live action series?</li>
 				<li>
 					<ul>
@@ -54,25 +73,6 @@
 							bugged me. Other than that, it was alright. There were
 							a couple of gems and I was surprised how well the series
 							lended itself to live action.
-						</li>
-					</ul>
-				</li>
-
-				<li class="faq_question">Can I download these episodes?</li>
-				<li>
-					<ul>
-						<li class="faq_answer">
-							Not from this site.... Hell Girl episodes can be downloaded from
-				Amazon Instant
-						</li>
-					</ul>
-				</li>
-
-				<li class="faq_question">How do you feel about the Hell Girl manga?</li>
-				<li>
-					<ul>
-						<li class="faq_answer">
-							Never got around to reading it.
 						</li>
 					</ul>
 				</li>
