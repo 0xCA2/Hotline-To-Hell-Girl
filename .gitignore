@@ -1,0 +1,10 @@
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
+public_html/images/thumbnails/
+public_html/images/avatars/
+!public_html/images/thumbnails/default.jpg
+includes/init_email.php
+includes/init_email.phpORG
+includes/db_connection.php
