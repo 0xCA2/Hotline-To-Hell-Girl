@@ -1,0 +1,519 @@
+body {
+	background-color:black;
+    margin:0;
+}
+.top-bar-section ul {display: table; margin: 0 auto;}
+.top-bar-section ul li {display: table-cell;}	
+.top-bar {
+  background-color: #101010;
+  border-bottom-style: solid;
+  border-bottom-color: #D11919;
+  border-bottom-width: 3px;
+
+}
+.top-bar-section {
+  background-color: #101010;
+  border-bottom-style: solid;
+  border-bottom-color: #D11919;
+  border-bottom-width: 3px;
+
+}
+.top-bar-section ul li {
+  background-color: #101010;
+}
+.top-bar-section ul {
+  background-color: #101010;
+}
+.top-bar-section .has-form {
+  background : #101010;
+}
+.top-bar-section li:not(.has-form) a:not(.button){
+    background-color: #101010;
+
+}
+.top-bar-section li.active:not(.has-form) a:not(.button){
+   background : #BF3730; /*light, hover should be darker */
+}
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+   background : #A60800;
+}
+
+.button.alert {
+  background-color: #BF3730;
+}  
+.button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+  background-color: #A60800;
+}
+
+.panel {
+  background-color: #101010;
+  color:#E6E6E6;
+  border-color:#4B4B4B;
+  border-width: 0.08em;
+}
+#category_panel {
+	padding: .5rem;
+}
+
+#login_topbar_space a{
+	display:inline;
+}
+/*footer */
+#fwrapper {
+  min-width: 100%;
+  background-color: #101010;
+  border-top-style: solid;
+  border-top-color: #D11919;
+  border-top-width: 3px;
+  margin-top: 30px;
+}
+.footer {
+  width: 445px;
+  min-height: 60px;
+  padding: 0px 6px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
+  color: #BF3730;
+  /*margin-bottom:0;*/
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+/*margin:0;*/
+}
+
+#category_list {
+	margin-left:0;
+	list-style-type:none;
+}
+
+#category_list li a {
+	color: #E6E6E6;
+/*	color: #BF3730;*/
+}
+
+#category_list a:hover {
+	color: #BF3730;
+}
+
+.panel h6 {
+	margin-bottom:0;
+}
+
+/*login/sign up stuff */
+#user_login_button_set .button{
+	background-color:#BF3730;
+}
+#user_login_button_set .button:hover{
+	background-color:#A60800;
+}
+.large-12.columns #log_in_cancel_button{ 
+	margin-right:1em;
+}
+
+/* top bar section */
+.top-bar {
+	margin-bottom:3em;
+}
+
+#topbar_image {
+	padding-right:30px;
+	width: 125px;
+	height: 45px;
+}
+
+#topbar_search_form {
+	width: 20rem;
+}
+
+#topbar_search_form_button {
+	padding-left:20px;
+}
+
+#topbar_user_section a{
+	color:#BF3730;
+}
+/* in foundation to get a fixed height / width sometimes 
+   you have to set the min and max height to the same thing */
+#topbar_user_image img{
+min-height:45px;
+min-width:43px;
+max-height:45px;
+max-width:43px;
+
+	border: 2px solid #BF3730;
+	margin-right:1em;
+}
+/*video page stuff */
+#video_info_panel {
+	line-height:3em;
+}
+
+#video_info_panel_labels a{
+	color: #BF3730;
+}
+
+#video_info_panel_favorite{
+	float:right;
+	vertical-align:middle;
+}
+#video_info_panel_unfavorite{
+	float:right;
+	vertical-align:middle;
+}
+
+#video_info_panel_favorite_icon {
+	text-shadow: 2px 2px 2px #BF3730;
+	color:white;
+	font-size:36px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+#video_info_panel_favorite_icon_clicked{
+	color:#BF3730;
+	font-size:36px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+#comment_input_panel {
+	padding-left:1em;
+}
+
+#comment_image {
+	border-left:3em;
+	width:50px;
+	height:50px;
+}
+
+.comment_output_panel {
+	padding-left:1em;
+	padding-bottom:2em;
+}
+
+.comment_output {
+	margin-left:3em;
+	padding-left:1em;
+}
+
+.comment_output_info_label a {
+	color:#BF3730;
+}
+
+.comment_output_panel img {
+	width:50px;
+	height:50px;
+}
+div.panel  #comment_login_message{
+	padding-bottom:1.5em;
+}
+
+.upvote_button{
+	cursor:pointer;
+}
+.downvote_button{
+	cursor:pointer;
+	padding-left:.5em;
+}
+
+.upvote_button_clicked {
+	color:#33CC33;
+}
+.downvote_button_clicked {
+	color:#BF3730;
+}
+
+.upvote_button:hover{
+	color:#33CC33;
+}
+
+.downvote_button:hover{
+	color:#BF3730	;
+}
+
+.vote_panel {
+	border-top: solid #3E3F3D .07em;
+	padding-top:.2em;
+}
+.vote_display_box{
+	background-color:#3E3F3D;
+	padding-left:.2em;
+	padding-right:.2em;
+}
+
+.positive_votes {
+	color:#33CC33;
+}
+
+.negative_votes {
+	color:#BF3730	;
+
+}
+
+.zero_votes {
+	color: grey;
+}
+
+#load_comments_button {
+	text-align:center;
+	border: solid #3E3F3D .07em;
+	cursor: pointer;
+}
+
+#load_comments_button:hover {
+	background-color:#3E3F3D;
+	color:white;
+}
+
+#comment_sort{
+	width:30%;
+	height:25px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+/*video item stuff */
+.video_item {/*
+  padding-right:20px;
+  padding-left:20px;*/
+  vertical-align:top; /*make sure tds stay at top 
+                       when there's a word wrap */
+  /*padding-bottom: 10px;
+  padding-top: 10px;*/
+  
+  
+  color:white;
+  font-size:15px;
+  font-family:arial; 
+  
+}
+
+.video_item img {
+  max-height: 99px;
+  max-width: 175px;
+  min-height: 99px;
+  min-width: 175px;
+ 
+  /* it's 220, 124, but it must be smaller */
+  border: 1px solid #D11919;
+}
+
+.category_table  img {
+  height: 90px;
+  width: 142px;
+  /* it's 220, 124, but it must be smaller */
+  border: 1px solid #D11919;
+}
+.category_table  td {
+  padding-right:20px;
+  padding-left:20px;
+  vertical-align:top; /*make sure tds stay at top 
+                       when there's a word wrap */
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.category_table{
+  /*color:red;*/
+  color:white;
+  font-size:15px;
+  font-family:arial;
+}
+
+.episode_name {
+   word-wrap:break-word; /*drop text down to next line*/
+   width:150px;}
+ 
+.episode_name_link {
+   color:#D11919;
+}
+
+a.category_link:link {
+  color:#D11919;
+}
+
+a.category_link:visited {
+  color:#C0C0C0;
+}
+
+.category_link_wrapper{
+	word-wrap:break-word;
+	width:150px;
+}
+
+/*about page stuff */
+p.about {
+   color:white;
+   font-family:arial;
+   font-size:14pt;
+}
+
+img.about {
+	float:right;
+	padding:4px;
+	border: 1px solid #D11919;
+	margin:1px;
+}
+
+h1.about_header{
+	color:#BF3730;
+	/*float:left;*/
+	font-family:arial;
+	font-weight:normal;
+	/*border-bottom:1px solid #D11919;/*red line under it*/*/
+}
+
+ul.faq {  
+   list-style-type:none;
+   font-family:arial;
+   font-size:14pt;
+}
+
+li.faq_answer {
+   color:white;
+   list-style-type:none;
+   padding-left:20px;
+   margin-bottom:20px;
+   font-weight:normal;
+}
+
+li.faq_question {
+   color:#D11919;
+   font-weight:bold;	
+}
+
+/*category stuff */
+.selected { 
+/*font-weight: bold; */
+background-color:#BF3730; 
+}
+#category_list li.selected a:hover { 
+color:white; 
+}
+
+/*fix this eventually */
+a.selected :hover{ 
+/*font-weight: bold; */
+color:white;
+}
+ 
+/*search stuff */
+#search_episode_name_input {
+	width:20%;
+	display:inline;
+
+}
+
+#search_category_selector{
+	width:15%;
+	display:inline;
+
+	
+}
+
+#search_episode_season_selector{
+	width:10%;
+	display:inline;
+
+}
+
+#search_episode_num_selector{
+	width:10%;
+	display:inline;
+
+
+}
+
+.search_form_option_name input{
+	height:1.8rem;
+	padding:0;
+
+}
+
+.search_form_option_name select{
+	height:1.8rem;
+	padding:0;
+	padding-left:0.5em;
+}
+
+#search_episode_form .button{
+	background-color:#BF3730;
+}
+#search_episode_form .button:hover{
+	background-color:#A60800;
+}
+#episode_search_submit {
+	/*margin-right:3em;*/
+	height: 2.7em;
+	margin-left:1em;
+}
+
+#search_form_wrapper {
+    padding-bottom: 1em;
+}
+
+#search_episode_page_selector {float:right;}
+#search_episode_page_selector ul {list-style-type: none; display:inline;margin: 0 auto;}
+#search_episode_page_selector li {display:inline;margin: 0 auto;}
+
+/* user page */
+.reveal-modal.open #modal_image_upload{
+	width:50%;
+}
+#avatar_file_browser{
+	margin-bottom:2em;
+}
+
+#friend_wrapper img {
+	width:50px;
+	height:50px;
+}
+
+#friend_username a{
+	color:#BF3730;
+	word-wrap:break-word;
+}
+
+.panel #see_more_page_link {
+	color :#BF3730; 
+	margin-bottom:2em;
+	padding-bottom:3em;
+}
+.panel #see_more_page_link a {
+	margin-bottom:2em;
+	padding-bottom:3em;
+
+}
+
+.panel #user_cp_list a {
+	color :#BF3730; 
+}
+.panel #user_cp_list ul {
+	list-style-type:none;
+	margin-left: 0;
+}
+
+/*favorites / friends page stuff */
+.fav_delete_checkbox { 
+	color:#BF3730;
+}
+#delete_favorites_link{
+	color :#BF3730; 
+}
+.friend_delete_checkbox { 
+	color:#BF3730;
+}
+#delete_friends_link{
+	color :#BF3730; 
+}
+
+/*sitewide */
+.sitewide-button{
+	background-color:#BF3730;
+}
+
+.sitewide-button:hover{
+	background-color:#A60800;
+}

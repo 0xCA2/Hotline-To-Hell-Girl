@@ -1,0 +1,193 @@
+html { height: 100%; width: 100%; }
+body {
+  width: 100%; height: 100%; 
+  margin: 0; padding: 0; border: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 13px; line-height: 15px;
+  background: #D46A6A;
+}
+img { border: none; }
+a { color: #8D0D19; }
+a:hover { color: #1A446C; }
+	
+#header { 
+	height: 70px; 
+	margin: 0; padding: 0; text-align: left; 
+  background: #8D0D19; color: #D4E6F4;
+}
+#header h1 { padding: 1em; margin: 0; }
+#main { 
+	height: 600px; width: 100%; 
+	margin: 0; padding: 0; 
+	background: #D46A6A;
+}
+#footer { 
+	clear: both;
+	height: 2em; margin: 0; padding: 1em; 
+	text-align: center; 
+  background: #8D0D19;  color: #D4E6F4;
+}
+
+/* Navigation */
+#navigation { 
+	float: left;
+	width: 150px; height: 100%; 
+	margin: 0; padding: 0 2em; 
+	color: black; background: #FFAAAA;
+}
+#navigation a { color: #black; text-decoration: none; }
+#navigation a:hover { color: #FFFFFF; }
+ul.subjects { 
+	margin: 1em 0; padding-left: 0; list-style: none;
+}
+ul.pages { padding-left: 2em; list-style: square; font-weight: normal;}
+.selected { font-weight: bold; }
+
+/* Page Content */
+#page { 
+	float: left; height: 100%;
+	padding-left: 2em; vertical-align: top; 
+	background: #D46A6A;
+}
+#page h2 { color: #8D0D19; margin-top: 1em;}
+#page h3 { color: #8D0D19; }
+.view-content {
+	margin: 1em; padding: 1em; border: 1px solid #999;
+}
+#page img {width: 8em; length:8em;}
+#gal_table td {padding-left:2em;padding-right:0;border-spacing:2em;float:right;padding-top:.5em;}
+div.message{
+	border: 2px solid #8D0D19;
+	color: #8D0D19; font-weight: bold;
+	margin: 1em 0; padding : 1em;
+}
+
+/* errors */
+.error {
+	color: #8D0D19; border: 2px solid #8D0D19;
+	margin: 1em 0; padding: 1em;
+}
+.error ul { padding-left: 2em; }
+
+/* admin stuff */
+.admin_panel th, td{
+	padding-right: 5em;
+}
+.admin_panel th {	font-weight:bold;} 
+
+/* My stuff */+
+#library_panel {
+	width: 100%;
+	padding-top:2em;
+}
+#library_panel h1 {
+	color: #8D0D19
+}
+#library_title {
+	padding-left:.2em;
+}
+#library_page_selector ul {
+	list-style-type: none; 
+	display:inline;
+	float:right;
+	padding-right:5em;
+}
+#library_page_selector li {
+	display:inline;
+}
+.gal_table {
+	display: none;
+}
+
+.search_form_option_name {
+	font-weight: bold;
+	color: #8D0D19;
+}
+
+#episode_search_results{
+ width: 70%;
+}
+.cms_episode_search_result_table {
+		border-collapse: collapse;
+		width: 100%;
+}
+.cms_episode_search_result_table a:hover{
+	color:#FFAAAA;
+}
+.cms_episode_search_result_table td{
+	border: 1px solid #801515;
+	border-width:1.5px;
+	border-collapse: collapse;
+	background-color:#D46A6A;
+}
+
+.cms_episode_search_result_name:hover {
+	background-color:#FFAAAA;
+	color: #801515;
+	cursor: pointer;
+}
+
+.cms_episode_search_result_table th, td{
+	padding-right: 5em;
+		border: 1px solid #801515;
+			border-width:medium;
+
+}
+.cms_episode_search_result_table th {	
+	/*font-weight:bold;*/
+	color: #D4E6F4;
+	background-color:#8D0D19;
+	} 
+
+/*
+#episode_search_results {
+	min-width:10em;
+	min-height:10em;
+}*/
+/*float:left;padding-right:45em;*//*padding-right:50em;*/
+/* evenutally come back and center this or put it to the side. */
+#search_episode_page_selector {float:right;}
+#search_episode_page_selector ul {list-style-type: none; display:inline;margin: 0 auto;}
+#search_episode_page_selector li {display:inline;margin: 0 auto;}
+
+/* for the slide down information box */
+#cms_episode_info_box{
+	width:100%;
+	padding:2em;
+
+}
+#cms_thumbnail img{
+	height:90px;
+	width:142px;
+	padding-top:1em;
+}
+/* 90x142 is picture size
+word-wrap: break-word; to text, also make it float to the right 
+*/
+#cms_thumbnail_panel{
+	float:left;
+	width: 60%;
+	padding-bottom:1em;
+}
+#cms_info_panel{
+	float:right;
+	width:40%;
+	padding-bottom:1em;
+}
+
+#episode_info_name{
+	font-weight:bold;
+}
+#cms_info_panel ul {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0px;
+
+}
+
+#cms_episode_search_data_name{}
+#cms_episode_search_data_name{
+	word-wrap: break-word;
+	color: #8D0D19;
+	width:80%;
+}

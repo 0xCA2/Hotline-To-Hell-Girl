@@ -1,0 +1,85 @@
+[15-Jul-2015 23:06:10 UTC] PHP Fatal error:  require_once(): Failed opening required '../session.php' (include_path='.:/usr/local/php56/pear') in /home/hotlinet/includes/layouts/header.php on line 1
+[15-Jul-2015 23:14:18 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host mail.hotlinetohellgirl.com [ #0]' in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hotlinet/public_html/signup.php(64): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[15-Jul-2015 23:18:09 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host hotlinetohellgirl.com [ #0]' in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hotlinet/public_html/signup.php(64): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[15-Jul-2015 23:31:19 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host mail.hotlinetohellgirl.com [ #0]' in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hotlinet/public_html/signup.php(64): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[15-Jul-2015 23:34:56 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host secure185.sgcpanel.com [ #0]' in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hotlinet/public_html/signup.php(64): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[15-Jul-2015 23:39:00 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host secure185.sgcpanel.com [ #0]' in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hotlinet/public_html/signup.php(64): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[15-Jul-2015 23:49:12 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host secure185.sgcpanel.com [ #0]' in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hotlinet/public_html/signup.php(64): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[16-Jul-2015 00:03:44 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host secure185.sgcpanel.com [ #0]' in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hotlinet/public_html/signup.php(64): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[16-Jul-2015 01:46:45 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host secure185.sgcpanel.com [ #0]' in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hotlinet/public_html/signup.php(64): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[16-Jul-2015 01:51:30 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host secure185.sgcpanel.com [ #0]' in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hotlinet/public_html/signup.php(64): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[16-Jul-2015 01:52:49 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host secure185.sgcpanel.com [ #0]' in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/hotlinet/public_html/signup.php(64): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/hotlinet/includes/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[16-Jul-2015 12:59:25 UTC] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING) in /home/hotlinet/includes/functions.php on line 533
+[19-Jul-2015 06:42:41 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/hotlinet/public_html/upload_avatar.php on line 5
+[19-Jul-2015 06:43:35 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/hotlinet/public_html/upload_avatar.php on line 5
+[22-Jul-2015 04:29:11 CST6CDT] PHP Warning:  Module 'memcached' already loaded in Unknown on line 0
