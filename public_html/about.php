@@ -10,7 +10,7 @@
 				<p class="about">
 				<img class="about" src="images/about.jpg" alt="hell girl"/>
 				Hell Girl, also known as Jigoku Shojo, is an anime series produced by 
-				Aniplex and Studio Deen. It focuses on the existence of a supernatural system that 
+				Aniplex and Studio Deen. It focuses on the existence of a supernatural hotline that 
 				allows people to take revenge by having other people sent to Hell via the services 
 				of the mysterious titular character and her assistants who implement this system.
 				Revenge, injustice, hatred, and the nature of human emotions are common themes 
