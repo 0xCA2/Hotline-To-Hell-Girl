@@ -3,11 +3,11 @@
 <?php require_once("../includes/functions.php"); ?>
 <?php
 	if (!isset($_GET["user"])) {
-		show_error("No user selected");
+		set_error_output("No user selected");
 	}else {
 		$user = find_user_by_id($_GET["user"]);
 		if (!$user) {
-			show_error("User not found. ");
+			set_error_output("User not found. ");
 		}else {
 			if ($user["id"] == $_SESSION["user_id"]) {
 				$users_profile = true;

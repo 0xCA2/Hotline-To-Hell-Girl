@@ -3,17 +3,13 @@
 <?php require_once("../includes/functions.php"); ?>
 <?php include("../includes/layouts/header.php"); ?>
 <div class="row"> ";
-	<div class ="large-12 columns"> 
-		 <div class="panel"> 
-			<h4> Error </h4> 
-				<?php 
-					if(isset($_SESSION["error"])){
-						echo $_SESSION["error"];
-					} else {
-						echo "No error given. ";
-					}
-				?>
-		</div> 
-	</div> 
-</div> 
+	<div class ="large-12 columns">
+		 <div class="panel">
+			<h4> Error </h4>
+			<?php
+				show_error();
+			?>
+		</div>
+	</div>
+</div>
 <?php include("../includes/layouts/footer.php"); ?>

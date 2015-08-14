@@ -8,7 +8,7 @@
 		// Make sure the email address is available:
 		// Validation
 		if (strlen($_POST["username"]) > 24) {
-			show_error("Username can be at most 24 characters. ");
+			set_error_output("Username can be at most 24 characters. ");
 		}
 		
 		$username = mysql_prep($_POST["username"]);
@@ -19,18 +19,18 @@
 		$query .= "WHERE email = '{$email}' ";
 		$result = mysqli_query($connection, $query);
 		if (!$result) {
-			show_error(" Database Error Occured ");
+			set_error_output(" Database Error Occured ");
 		} else if (mysqli_num_rows($result) != 0) { 
-			show_error("That email address has already been registered. Please select another");
+			set_error_output("That email address has already been registered. Please select another");
 		}
 		
 		$query = "SELECT * FROM users ";
 		$query .= "WHERE username = '{$username}' ";
 		$result = mysqli_query($connection, $query);
 		if (!$result) {
-			show_error(" Database Error Occured ");
+			set_error_output(" Database Error Occured ");
 		} else if (mysqli_num_rows($result) != 0) { 
-			show_error("That username has already been registered. Please select another.");
+			set_error_output("That username has already been registered. Please select another.");
 		}
 		
 		// Create a unique  activation code:
@@ -65,7 +65,7 @@
 
 		}else {
 			// Failure
-			show_error("You could not be registered due to a system error. We apologize for any
+			set_error_output("You could not be registered due to a system error. We apologize for any
 					inconvenience.");		
 		}					
 

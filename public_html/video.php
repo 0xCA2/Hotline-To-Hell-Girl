@@ -4,11 +4,11 @@
 <?php include("../includes/layouts/header.php"); ?>
 <?php 
 	if(!isset($_GET["e"])){
-		show_error("No episode selected. ");
+		set_error_output("No episode selected. ");
 	}else {
 		$episode = get_episode_by_id($_GET["e"]);
 		if ($episode == null) {
-			show_error("Episode not found. ");
+			set_error_output("Episode not found. ");
 		}
 	}
 

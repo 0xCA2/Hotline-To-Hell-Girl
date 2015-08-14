@@ -5,13 +5,13 @@
 <?php 
 	
 	if (!isset($_GET["email"]) || !isset($_GET["key"])) {
-		show_error("Reset password failed. ");
+		set_error_output("Reset password failed. ");
 	}else {
 		$email = mysql_prep($_GET["email"]);
 		$key = mysql_prep($_GET["key"]);
 		
 		if (!check_existance_of_item("users", "email", $email)) {
-			show_error("Email not found. ");
+			set_error_output("Email not found. ");
 		}else {
 			$query = "SELECT id ";
 			$query .= "FROM users ";
@@ -22,7 +22,7 @@
 			if ($result && mysqli_affected_rows($connection) > 0) {
 				$user_id = mysqli_fetch_assoc($result)["id"];
 			}else {
-				show_error("Reset password failed.");
+				set_error_output("Reset password failed.");
 			}
 		}
 	}

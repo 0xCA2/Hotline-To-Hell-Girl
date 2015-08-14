@@ -18,7 +18,7 @@
 			$uploadOk = 1;
 		} else {
 			chmod('images/avatars/', 0755);
-			show_error( "File is not an image.");
+			set_error_output( "File is not an image.");
 			$uploadOk = 0;
 		}
 	}
@@ -26,7 +26,7 @@
 	// Check file size
 	if ($_FILES["user_image"]["size"] > 500000) {
 		chmod('images/avatars/', 0755);
-		show_error( "Sorry, your file is too large.");
+		set_error_output( "Sorry, your file is too large.");
 		$uploadOk = 0;
 	}
 	
@@ -34,7 +34,7 @@
 	if($image_file_type != "jpg" && $image_file_type != "png" && $image_file_type != "jpeg"
 	&& $image_file_type != "gif" ) {
 		chmod('images/avatars/', 0755);
-		show_error( "Sorry, only JPG, JPEG, PNG & GIF files are allowed.");
+		set_error_output( "Sorry, only JPG, JPEG, PNG & GIF files are allowed.");
 		$uploadOk = 0;
 	}
 	
@@ -49,7 +49,7 @@
 			show_message( "The file ". basename( $_FILES["user_image"]["name"]). " has been uploaded.");
 		} else {
 			chmod('images/avatars/', 0755);
-			show_error( "Sorry, there was an error uploading your file.");
+			set_error_output( "Sorry, there was an error uploading your file.");
 		}
 	}
 	

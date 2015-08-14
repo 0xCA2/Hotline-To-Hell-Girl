@@ -3,7 +3,7 @@
 <?php require_once("../includes/functions.php"); ?>
 <?php
 	if(!isset($_GET["email"]) || !isset($_GET["key"])) {
-		show_error("Password change error. ");
+		set_error_output("Password change error. ");
 	}
 	
 	if(isset($_POST["submit"])) {
@@ -29,10 +29,10 @@
 			
 			$result = mysqli_query($connection, $query);
 			if (!$result || mysqli_affected_rows($connection) <= 0) {
-				show_error("Reset password failed.");
+				set_error_output("Reset password failed.");
 			}
 		}else {
-			show_error("Reset password failed.");
+			set_error_output("Reset password failed.");
 		}
 
 	}

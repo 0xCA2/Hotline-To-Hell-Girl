@@ -4,23 +4,23 @@
 <?php
 /*
 	if (!isset($_SESSION["user_id"])) {
-		show_error("Please log in to delete favorite. ");
+		set_error_output("Please log in to delete favorite. ");
 	}else if (!isset($_GET["user"])) {
-		show_error("Favorite deletion failed. User not selected.");
+		set_error_output("Favorite deletion failed. User not selected.");
 	}else if ($_SESSION["user_id"] != $_GET["user"]) {
-		show_error("Favorite deletion failed. ");
+		set_error_output("Favorite deletion failed. ");
 	}else if (!isset($_GET["episode"])) {
-		show_error("Favorite deletion failed. Episode not selected. ");
+		set_error_output("Favorite deletion failed. Episode not selected. ");
 	}else if (!check_existance_by_id("episodes", "EpID", $_GET["episode"])) {
-		show_error("Episode does not exist." . check_existance_by_id("episodes", "EpID", $_GET["episode"]));
+		set_error_output("Episode does not exist." . check_existance_by_id("episodes", "EpID", $_GET["episode"]));
 	}else if (!check_existance_by_id("users", "id", $_GET["user"])) {
-		show_error("User does not exist. ");
+		set_error_output("User does not exist. ");
 	}else if (!already_favorite($_GET["user"], $_GET["episode"])){
-		show_error("You never favorited that");
+		set_error_output("You never favorited that");
 	}
 	
 	if (!delete_favorite($_GET["user"], $_GET["episode"])){
-		show_error("Favorite deletion failed. Database error.");
+		set_error_output("Favorite deletion failed. Database error.");
 	}
 */
 	if (isset($_POST["submit"])) {

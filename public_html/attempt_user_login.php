@@ -31,7 +31,7 @@
 
 			if($time_left > 0) {
 				$wait_time = format_time_since_in_words($time_left);
-				show_error("You have used too many login attempts. Please wait {$wait_time} and try again. ");
+				set_error_output("You have used too many login attempts. Please wait {$wait_time} and try again. ");
 			}
 		}
 
@@ -56,9 +56,9 @@
 		  throttle_all_logins();
 		  // in last 15 minutes by default
 		  if(get_failed_login_attempts_by_username($safe_username) >= 3) {
-			  show_error("You have used too many login attempts. Please wait 10 minutes and try again.  ");
+			  set_error_output("You have used too many login attempts. Please wait 10 minutes and try again.  ");
 		  }
-		  show_error("Username or password not found. ");
+		  set_error_output("Username or password not found. ", "log_in.php");
 		}
 
 	}else {

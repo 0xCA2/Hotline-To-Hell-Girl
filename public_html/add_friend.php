@@ -3,13 +3,13 @@
 <?php require_once("../includes/functions.php"); ?>
 <?php
 	if (!isset($_SESSION["user_id"])) {
-		show_error("Please log in to add friend. ");
+		set_error_output("Please log in to add friend. ");
 	}else if (!isset($_GET["user"])) {
-		show_error("Invalid friend. ");
+		set_error_output("Invalid friend. ");
 	}else if ($_SESSION["user_id"] == $_GET["user"]) {
-		show_error("Cannot add yourself to your own friends list. ");
+		set_error_output("Cannot add yourself to your own friends list. ");
 	}else if (already_friend($_SESSION["user_id"], $_GET["user"])) {
-		show_error("That user is already on your friends list. ");
+		set_error_output("That user is already on your friends list. ");
 	}
 
 	add_friend($_SESSION["user_id"], $_GET["user"]);

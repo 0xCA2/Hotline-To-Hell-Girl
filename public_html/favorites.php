@@ -4,9 +4,9 @@
 <?php confirm_user_logged_in(); ?>
 <?php
 	if (!isset($_GET["user"])) {
-		show_error("User not selected. ");
+		set_error_output("User not selected. ");
 	}else if (!check_existance_by_id("users", "id" , $_GET["user"])) {
-		show_error("User does not exist. ");
+		set_error_output("User does not exist. ");
 	}
 	
 
