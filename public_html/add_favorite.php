@@ -3,7 +3,7 @@
 <?php require_once("../includes/functions.php"); ?>
 <?php
 if (!isset($_SESSION["user_id"])) {
-	set_error_output("Please log in to favorite video. ", "video.php?e=" . urlencode($_GET["episode"]));
+	redirect_to("log_in.php");
 }else if (!isset($_GET["user"])) {
 	set_error_output("Favorite failed. User not selected.", "video.php?e=" . urlencode($_GET["episode"]));
 }else if ($_SESSION["user_id"] != $_GET["user"]) {
