@@ -6,3 +6,6 @@ public_html/images/thumbnails/
 public_html/images/avatars/
 !public_html/images/avatars/default.jpg
 Thumbs.db
+includes/db_connection.php
+includes/init_email.php
+includes/init_email.phpORG
